@@ -2,7 +2,7 @@ name: Check DB and Create Jira Fix Version
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Every 1 hour
+    - cron: '*/2 * * * *'  # Every 2 minutes
   workflow_dispatch:
 
 jobs:
